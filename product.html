@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Wavy</title>
+		<link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/product.css">
+		<link rel="stylesheet" href="src/css/reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	</head>
+
+  <section class="one firstSection">
+    <nav>
+      <div class="nav__bar">
+        <li class="item__nav-bar firstItem"><a href="index.html"><img class="width__logo" src="src/images/2_logo.png"/></a></li>
+        <li class="item__nav-bar"><a href="#">Produit</a></li>
+        <li class="item__nav-bar"><a href="#">A propos</a></li>
+        <li class="item__nav-bar"><a href="#">Blog</a></li>
+        <li class="item__nav-bar"><a href="#">Contact</a></li>
+      </div>
+    </nav>
+
+    <div class="container__item">
+      <div class="content__description">
+        <button class="item__new">New</button>
+        <h2 class="title__product">Wavy - Ghost Runner</h2>
+        <img src="src/images/star.png" alt="" class="img__star"/>
+        <p class="description__product">La montre connectée Ghost Runner est belle mais pas seulement. Elle vous aide à atteindre vos objectifs grâce a des vibrations sur votre poignet.</p>
+        <div class="content__quantity">
+          <p class="quantity__item">Quantité</p>
+          <span class="input-number-decrement">–</span><input class="input-number" type="text" value="1" min="0" max="10"><span class="input-number-increment">+</span>
+        </div>
+        <div class="content__quantity">
+          <p class="quantity__item color">Couleur</p>
+          <div class="content__color">
+            <div class="circle__color black"></div>
+            <div class="circle__color red">
+              <div class="content__hideInfo">Cette couleur n'est pas encore disponible</div>
+            </div>
+            <div class="circle__color blue">
+              <div class="content__hideInfo">Cette couleur n'est pas encore disponible</div>
+            </div>
+            <div class="circle__color purple">
+              <div class="content__hideInfo">Cette couleur n'est pas encore disponible</div>
+            </div>
+            <div class="circle__color green">
+              <div class="content__hideInfo">Cette couleur n'est pas encore disponible</div>
+            </div>
+          </div>
+        </div>
+        <div class="content__price">
+          <p class="price__price">21 €</p>
+        </div>
+
+        <div class="content__line"></div>
+
+        <div class="content__button">
+          <div class="content__truck">
+            <img src="src/images/camion.png"/>
+            <p>Livraison gratuite</p>
+          </div>
+          <button href="#" class="itemButtonProduct">Commander</button>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <script src="src/js/libs/jquery-2.2.0.min.js"></script>
+  <script src="src/js/app/script.js"></script>
+</html>

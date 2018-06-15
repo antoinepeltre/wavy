@@ -1,0 +1,178 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size:14px;
+}
+
+.firstSection {
+	height:100vh;
+	font-family: 'Lato', sans-serif;
+}
+
+.one{
+	background-image: url('../images/bck.png');
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position-y:-120px;
+}
+
+.nav__bar {
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	flex-direction: row;
+	padding-top: 40px;
+}
+
+.item__nav-bar {
+	list-style: none;
+	margin: 0px 20px;
+	text-transform: uppercase;
+	font-size:14px;
+}
+
+.item__nav-bar a{
+	text-decoration: none;
+}
+
+.firstItem {
+	flex:2;
+	text-transform: inherit !important;
+	font-size:22px;
+}
+
+.container__item {
+	width:80%;
+	margin:150px auto 0px auto;
+	background-image: url('../images/watch.png');
+	height:100%;
+	background-size: 27%;
+	background-repeat: no-repeat;
+	background-position-x:690px;
+}
+
+.title__container {
+	font-weight: 300;
+	font-size:62px;
+	color:#212121;
+}
+
+.text__container {
+	width: 40%;
+	margin-top: 50px;
+	color:#5C5C5C;
+	line-height: 20px;
+}
+
+.container__button {
+	margin-top:70px;
+}
+
+.itemButton {
+	text-transform: uppercase;
+	border-radius: 100px;
+	padding:25px;
+	line-height: 0px;
+	margin:0 20px;
+	cursor: pointer;
+	font-weight: 400;
+	font-size:13px;
+	transition: 0.3s all;
+}
+
+.firstButton {
+	background-color: #fff;
+	margin-left: 0px !important;
+}
+
+.firstButton:hover {
+	background-color: #423E3E;
+	color:#fff;
+}
+
+.secondButton {
+	background-color: #423E3E;
+	color:#fff;
+}
+
+.second {
+
+}
+
+.secondButton:hover {
+	background-color: #fff;
+	color:#000;
+}
+
+.container__secondSection {
+	width: 80%;
+	margin:200px auto 0px auto;
+	background-image: url('../images/2_iPhone.png');
+	background-repeat: no-repeat;
+	background-position-x:right;
+	height:100%;
+	background-size:25%;
+}
+
+.container__links {
+	margin-top:70px;
+}
+
+.container__links a {
+	color:#FFC80A;
+	text-decoration: none;
+	font-size:20px;
+	font-weight: 400;
+}
+
+.img__containerLinks {
+	width: 14px;
+	height:12px;
+}
+
+.container__secondSection .text__container {
+	margin-top:150px;
+}
+
+.third{
+	background-image: url('../images/map.png');
+	background-repeat: no-repeat;
+}
+
+.container__thirdSection {
+	width: 80%;
+	margin:0px auto 0px auto;
+	background-image: url('../images/3_iPhone.png');
+	background-repeat: no-repeat;
+	background-position-x:left;
+	height:100%;
+	background-size:25%;
+	padding-top:100px;
+  background-position-y: 100px;
+}
+
+.container__thirdSection .title__container{
+	float: right;
+}
+
+.container__thirdSection .text__container{
+	float: right;
+	width: 50%;
+}
+
+.container__footer{
+	padding:50px 100px;
+	background-color: #2C2C2C;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+
+.titleGroup {
+	text-transform: uppercase;
+	font-weight: 700;
+	color:#fefefe;
+	margin-bottom: 20px;
+}
+
+.width__logo {
+	width:10%;
+}

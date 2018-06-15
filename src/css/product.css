@@ -1,0 +1,223 @@
+body {
+
+}
+
+.one{
+	background-color:#fff;
+  background-image: none;
+}
+
+.container__item {
+	width:80%;
+	margin:80px auto 0px auto;
+	background-image: none;
+	height:100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position-x:0px;
+  background-image: url('../images/2_watch.png');
+  background-size:30%;
+  font-family: 'Lato', sans-serif;
+}
+
+.content__description {
+  width: 40%;
+  float: right;
+}
+
+.item__new {
+  padding:15px;
+  border-radius:10px;
+  background-color: #8F75BE;
+  line-height: 0px;
+  color: #fff;
+  width: 100px;
+}
+
+.title__product {
+  font-size:36px;
+  margin-top: 20px;
+}
+
+.img__star{
+  margin-top: 10px;
+}
+
+.description__product {
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.content__quantity {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quantity__item {
+  text-transform: uppercase;
+  color:#9FA3A7;
+  font-size:13px;
+  margin-right: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.input-number {
+  width: 40px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+}
+
+.input-number,
+.input-number-decrement,
+.input-number-increment {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 40px !important;
+  user-select: none;
+}
+
+.input-number-decrement,
+.input-number-increment {
+  display: inline-block;
+  width: 30px;
+  line-height: 38px;
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.input-number-decrement:active,
+.input-number-increment:active {
+  background: #ddd;
+}
+
+.input-number-decrement {
+  border-right: none;
+  border-radius: 50px 0 0 50px;
+  border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.input-number-increment {
+  border-left: none;
+  border-radius: 0 50px 50px 0;
+  border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.content__color {
+  display: flex;
+  align-items: center;
+}
+
+.circle__color {
+  width: 17px;
+  height:17px;
+  border-radius: 50px;
+  margin:0px 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.black {
+  background-color: #292929;
+  opacity: 1;
+  border:2px solid gray;
+}
+
+.red {
+  background-color: rgba(246, 90, 65, 0.4);
+}
+
+.blue {
+  background-color: rgb(87, 185, 187, 0.4);
+}
+
+.purple {
+  background-color: rgba(143, 118, 188, 0.4);
+}
+
+.green {
+  background-color: rgba(138, 224, 43, 0.4);
+}
+
+.content__hideInfo{
+  width: 230px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #646464;
+  opacity: 1 !important;
+  position: absolute;
+  top: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+  background:#fff;
+}
+
+.content__price {
+  margin-top: 30px;
+  float: right;
+  margin-bottom: 30px;
+}
+
+.price__price {
+  font-size:30px;
+  font-weight:400;
+}
+
+.content__line {
+  width: 100%;
+  height:1px;
+  background-color:#ccc;
+  clear: both;
+}
+
+.content__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:10px;
+}
+
+.content__truck {
+  display:flex;
+  flex-direction: row;
+  margin-top:20px;
+  align-items: center;
+
+}
+
+.content__truck img{
+  margin-right: 20px;
+}
+
+.content__truck p{
+  text-transform: uppercase;
+  color: #9FA3A7;
+  font-size:12px;
+}
+
+.itemButtonProduct {
+  border: 1px solid #FFC80A;
+    padding: 20px;
+    line-height: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.itemButtonProduct:hover {
+  background-color:#FFC80A;
+  color:#fff;
+
+}
